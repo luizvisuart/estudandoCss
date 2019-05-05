@@ -32,3 +32,23 @@ ul li a {
     line-height: 1.8em;
     text-decoration: none; /* retira o sublinhado sobre o link quando o mouse está encima*/
 }
+
+/* removendo o padding da lista */
+.menu {
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+/*colocando lado a lado*/
+.menu li {
+    display: inline;
+    margin-right: 5px;
+}
+
+.menu a {
+    background: #818181;
+    border: 1px solid #575757;
+    color: #fff;
+    padding: 5px;
+}
+
