@@ -52,3 +52,18 @@ ul li a {
     padding: 5px;
 }
 
+/* zerando as margens superiores e inferiores do documento */
+.wrapper {
+    margin: 0 auto; /*auto ajuda auto ajustar no centro*/
+    width: 40%; /* largura do conteudo agora é esse*/
+}
+
+.content {
+ border: 2px solid #13ff00; /*adicionando uma borda no texto principal*/
+ /*ocultando as bordas laterais*/
+ border-left: none;
+ border-right: none;
+}
+
+
+
