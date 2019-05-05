@@ -65,5 +65,20 @@ ul li a {
  border-right: none;
 }
 
+.article-date{
+    font-size: 12px;
+    font-style: italic;
+}
 
+.contact-us{
+    padding: 0;
+}
+
+.contact-us li {
+    display: inline;
+    margin-right: 10px;
+}
+.contact-us li a {
+    color: rgb(92, 91, 91);
+}
 
